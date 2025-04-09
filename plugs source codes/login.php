@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <link rel="shortcut icon" href="img/favicon.png" />
+  <title>Car rental management system</title>
+  <meta name="description" content="Login and Register Form Html">
+  <meta name="author" content="#">
+
+  <!-- Web Fonts
+========================= -->
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900'
+    type='text/css'>
+
+  <!-- Stylesheet
+========================= -->
+  <link rel="stylesheet" type="text/css"
+    href="https://harnishdesign.net/demo/html/oxyy/vendor/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://harnishdesign.net/demo/html/oxyy/vendor/font-awesome/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://harnishdesign.net/demo/html/oxyy/css/stylesheet.css" />
+  <!-- Colors Css -->
+  <link id="color-switcher" type="text/css" rel="stylesheet" href="#" />
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader-bg"></div>
+  <div id="preloader">
+    <div id="preloader-status">
+      <div class="preloader-position loader"> <span></span> </div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <div id="main-wrapper" class="oxyy-login-register">
+    <div class="container-fluid px-0">
+      <div class="row g-0 min-vh-100">
+        <!-- Welcome Text
+      ========================= -->
+        <div class="col-md-4">
+          <div class="hero-wrap d-flex align-items-center h-100">
+            <div class="hero-mask opacity-5 bg-dark"></div>
+            <div class="hero-bg hero-bg-scroll"
+              style="background-image:url('https://harnishdesign.net/demo/html/oxyy/images/login-bg-6.jpg');"></div>
+            <div class="hero-content mx-auto w-100 h-100">
+              <div class="container d-flex flex-column h-100">
+                <div class="row g-0">
+                  <div class="col-11 col-lg-9 mx-auto text-center">
+                    <!-- Business Logo -->
+                    <div class="logo mt-5 mb-3">
+                      <a href="home.php" title="Homepage">
+                        <img src="img/logo.png" alt="Business Logo" style="max-width: 150px;">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row g-0 mt-3">
+                  <div class="col-11 col-lg-9 mx-auto text-center">
+                    <h1 class="text-9 text-white fw-300 mb-5"><span class="fw-500">Welcome Back</span>, We are glad to
+                      see you again!</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Welcome Text End -->
+
+        <!-- Login Form
+      ========================= -->
+        <div class="col-md-8 d-flex flex-column align-items-center bg-dark">
+          <div class="container my-auto py-5">
+            <div class="row g-0">
+              <div class="col-11 col-md-8 col-lg-7 col-xl-6 mx-auto">
+                <p class="text-2 text-light">Not a member? <a class="fw-500" href="register.php">Register</a></p>
+                <h3 class="text-white mb-4">Log In to Your Account</h3>
+                <div class="d-flex">
+                  <!--<button type="button" class="btn btn-primary btn-sm fw-400 rounded-3 shadow-none"><span
+                      class="me-2"><i class="fab fa-google"></i></span><span class="mx-3">Log in with
+                      Google</span></button>-->
+                  <!--<ul class="social-icons d-inline-block social-icons-rounded">
+                    <li class="social-icons-apple mb-0"><a class="bg-dark-4" href="#" data-bs-toggle="tooltip"
+                        data-bs-original-title="Sign in with apple"><i class="fab fa-apple"></i></a></li>
+                  </ul>-->
+                </div>
+                <div class="d-flex align-items-center my-4">
+                  <hr class="col-1 border-secondary">
+                  <span class="mx-3 text-2 text-white-50"></span>
+                  <hr class="flex-grow-1 border-secondary">
+                </div>
+                <form id="loginForm" class="form-dark" method="post">
+                  <div class="mb-3">
+                    <label class="form-label text-light" for="emailAddress">Email Address</label>
+                    <input type="email" class="form-control" id="emailAddress" required placeholder="Enter Your Email">
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label text-light" for="loginPassword">Password</label>
+                    <a class="float-end text-2" href="forgot-password.php">Forgot Password ?</a>
+                    <input type="password" class="form-control" id="loginPassword" required
+                      placeholder="Enter Password">
+                  </div>
+                  <button class="btn btn-primary my-2" type="submit">Log in</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Login Form End -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Styles Switcher -->
+  <div id="styles-switcher" class="right">
+    <h5>Color Switcher</h5>
+    <hr>
+    <ul class="mb-0">
+      <li class="blue" data-bs-toggle="tooltip" title="Blue" data-path="#"></li>
+      <li class="indigo" data-bs-toggle="tooltip" title="Indigo"
+        data-path="https://harnishdesign.net/demo/html/oxyy/css/color-indigo.css"></li>
+      <li class="purple" data-bs-toggle="tooltip" title="Purple"
+        data-path="https://harnishdesign.net/demo/html/oxyy/css/color-purple.css"></li>
+      <li class="pink" data-bs-toggle="tooltip" title="Pink"
+        data-path="https://harnishdesign.net/demo/html/oxyy/css/color-pink.css"></li>
+      <li class="red" data-bs-toggle="tooltip" title="Red"
+        data-path="https://harnishdesign.net/demo/html/oxyy/css/color-red.css"></li>
+      <li class="orange" data-bs-toggle="tooltip" title="Orange"
+        data-path="https://harnishdesign.net/demo/html/oxyy/css/color-orange.css"></li>
+      <li class="yellow" data-bs-toggle="tooltip" title="Yellow"
+        data-path="https://harnishdesign.net/demo/html/oxyy/css/color-yellow.css"></li>
+      <li class="teal" data-bs-toggle="tooltip" title="Teal"
+        data-path="https://harnishdesign.net/demo/html/oxyy/css/color-teal.css"></li>
+      <li class="green" data-bs-toggle="tooltip" title="Green"
+        data-path="https://harnishdesign.net/demo/html/oxyy/css/color-green.css"></li>
+      <li class="cyan" data-bs-toggle="tooltip" title="Cyan"
+        data-path="https://harnishdesign.net/demo/html/oxyy/css/color-cyan.css"></li>
+      <li class="brown" data-bs-toggle="tooltip" title="Brown"
+        data-path="https://harnishdesign.net/demo/html/oxyy/css/color-brown.css"></li>
+    </ul>
+    <button class="btn switcher-toggle"><i class="fas fa-cog"></i></button>
+  </div>
+  <!-- Styles Switcher End -->
+
+  <!-- Script -->
+  <script src="https://harnishdesign.net/demo/html/oxyy/vendor/jquery/jquery.min.js"></script>
+  <script src="https://harnishdesign.net/demo/html/oxyy/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Style Switcher -->
+  <script src="https://harnishdesign.net/demo/html/oxyy/js/switcher.min.js"></script>
+  <script src="https://harnishdesign.net/demo/html/oxyy/js/theme.js"></script>
+</body>
+
+</html>

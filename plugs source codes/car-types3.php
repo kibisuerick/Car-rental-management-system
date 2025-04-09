@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Car rental management system</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&amp;display=swap">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="Home.php"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+                <!-- <a class="logo" href="index.php"><h2 class="animated-text">Renta<span>x</span></h2></a> -->
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home <i
+                                class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <!--<li><a href="index.php" class="dropdown-item"><span>Slider 01</span></a></li>-->
+                            <li><a href="Home.php" class="dropdown-item"><span>Main page</span></a></li>
+                            <li><a href="index2.php" class="dropdown-item"><span>Images</span></a></li>
+                            <!--<li><a href="index.php" class="dropdown-item"><span>Slider 01</span></a></li>-->
+                            <li><a href="index3.php" class="dropdown-item"><span>Video</span></a></li>
+                            <!--<li><a href="index4.php" class="dropdown-item"><span>Slideshow</span></a></li>-->
+                            <!--<li><a href="index6.php" class="dropdown-item"><span>Grid Background</span></a></li>-->
+                            <li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                                    href="#"><span>Onepage <i class="ti-angle-right"></i></span></a>
+                                <ul class="dropdown-menu">
+                                    <!--<li><a href="onepage-slider.php" class="dropdown-item"><span>Slider 01</span></a></li>-->
+                                    <li><a href="onepage-slider2.php" class="dropdown-item"><span>Main page</span></a>
+                                    </li>
+                                    <li><a href="onepage-image.php" class="dropdown-item"><span>Images</span></a></li>
+                                    <!--<li><a href="onepage-image2.php" class="dropdown-item"><span>Image 02</span></a></li>-->
+                                    <li><a href="onepage-video.php" class="dropdown-item"><span>Video</span></a></li>
+                                    <!--<li><a href="onepage-slideshow.php" class="dropdown-item"><span>Slideshow</span></a></li>
+                                    <li><a href="onepage-grid-background.php" class="dropdown-item"><span>Grid Background</span></a></li>-->
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Services <i
+                                class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services.php" class="dropdown-item"><span>Services</span></a></li>
+                            <!--<li><a href="services2.php" class="dropdown-item"><span>Services 02</span></a></li>-->
+                            <li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                                    href="#"><span>Service Details <i class="ti-angle-right"></i></span></a>
+                                <ul class="dropdown-menu">
+                                    <!--<li><a href="service-details.php" class="dropdown-item"><span>Service Details 01</span></a></li>-->
+                                    <li><a href="service-details2.php" class="dropdown-item"><span>Let's serve
+                                                you</span></a></li>
+                                    <!--<li><a href="service-details3.php" class="dropdown-item"><span>Service Details 03</span></a></li>
+                                    <li><a href="service-details4.php" class="dropdown-item"><span>Service Details 04</span></a></li>-->
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown"> <a class="nav-link active dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Cars <i
+                                class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                                    href="#"><span>Car Grid <i class="ti-angle-right"></i></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="cars.php" class="dropdown-item"><span>Car Grid</span></a></li>
+                                    <!--<li><a href="cars2.php" class="dropdown-item"><span>Car Grid 02</span></a></li>
+                                    <li><a href="cars3.php" class="dropdown-item"><span>Car Grid 03</span></a></li>-->
+                                </ul>
+                            </li>
+                            <li><a href="cars4.php" class="dropdown-item"><span>Car Listing</span></a></li>
+                            <li class="dropdown-submenu dropdown"> <a class="dropdown-item active dropdown-toggle"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                                    href="#"><span>Car Types <i class="ti-angle-right"></i></span></a>
+                                <ul class="dropdown-menu">
+                                    <!--<li><a href="car-types.php" class="dropdown-item"><span>Car Types 01</span></a></li>
+                                    <li><a href="car-types2.php" class="dropdown-item"><span>Car Types 02</span></a></li>-->
+                                    <li><a href="car-types3.php" class="dropdown-item active"><span>Car Types
+                                                03</span></a></li>
+                                    <!--<li><a href="car-types4.php" class="dropdown-item"><span>Car Types 04</span></a></li>-->
+                                </ul>
+                            </li>
+                            <!--<li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#"><span>Car Details <i class="ti-angle-right"></i></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="car-details.php" class="dropdown-item"><span>Car Details 01</span></a></li>
+                                    <li><a href="car-details2.php" class="dropdown-item"><span>Car Details 02</span></a></li>
+                                    <li><a href="car-details3.php" class="dropdown-item"><span>Car Details 03</span></a></li>
+                                    <li><a href="car-details4.php" class="dropdown-item"><span>Car Details 04</span></a></li>
+                                </ul>
+                            </li>-->
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Pages <i
+                                class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="team.php" class="dropdown-item"><span>Team</span></a></li>
+                            <li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle"
+                                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                                    href="#"><span>Image Gallery <i class="ti-angle-right"></i></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="gallery-image.php" class="dropdown-item"><span>Image Gallery
+                                                Grid</span></a></li>
+                                    <!--<li><a href="gallery-image2.php" class="dropdown-item"><span>Image Gallery Masonry</span></a></li>-->
+                                </ul>
+                            </li>
+                            <li><a href="gallery-video.php" class="dropdown-item"><span>Video Gallery</span></a></li>
+                            <li><a href="price.php" class="dropdown-item"><span>Pricing</span></a></li>
+                            <li><a href="faq.php" class="dropdown-item"><span>FAQ</span></a></li>
+                            <li><a href="testiominals.php" class="dropdown-item"><span>Testiominals</span></a></li>
+                            <li><a href="team-single.php" class="dropdown-item"><span>Team Single</span></a></li>
+                            <li><a href="404.php" class="dropdown-item"><span>404 Page</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Blog <i
+                                class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="blog.php" class="dropdown-item"><span>Blog Grid</span></a></li>
+                            <!--<li><a href="blog2.php" class="dropdown-item"><span>Blog Grid 02</span></a></li>
+                            <li><a href="blog3.php" class="dropdown-item"><span>Blog List</span></a></li>
+                            <li><a href="post.php" class="dropdown-item"><span>Post Single</span></a></li>-->
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                    <li></li>
+                    <li></li>
+                    <li class="header__account--icon__list">
+                        <a class="header__account--icon__link" href="login.php"><!-- Account icon --><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-users">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            <!-- SVG icon for users (account) -->
+                            <span class="visually-hidden">My Account</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="navbar-right">
+                    <div class="wrap">
+                        <div class="icon"> <i class="flaticon-phone-call"></i> </div>
+                        <div class="text">
+                            <p>Need help?</p>
+                            <h5><a href="tel:+254 797 901 036">+254 797 901 036</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Header Banner -->
+    <section class="banner-header section-padding bg-img" data-overlay-dark="6" data-background="img/slider/3.jpg">
+        <div class="v-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h6 class="fade-in-text">Categories</h6>
+                        <h1>Rental <span>Car Types</span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- Car Types 3 -->
+    <section class="car-types3 section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-45">
+                    <div class="item">
+                        <div class="text">
+                            <h5>Luxury Cars</h5>
+                            <p>Experience the epitome of sophistication and comfort with our premium selection of luxury
+                                cars. Whether you're looking for a stylish ride for business meetings, special
+                                occasions, or a weekend getaway, our high-end vehicles ensure a first-class experience.
+                                Drive in elegance with top brands like Mercedes-Benz, BMW, and Audi, featuring
+                                state-of-the-art technology, plush interiors, and superior performance.</p>
+                        </div>
+                        <div class="icon">
+                            <div class="icon-curv">
+                                <a href="#">
+                                    <div class="icon-w"><i class="flaticon-coupe-car icon-show"></i><i
+                                            class="ti-arrow-top-right icon-hidden"></i></div>
+                                </a>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-45">
+                    <div class="item">
+                        <div class="text">
+                            <h5>Sport Cars</h5>
+                            <p>Unleash the thrill of the road with our dynamic sports cars, designed for speed,
+                                precision, and excitement. Perfect for adrenaline seekers and car enthusiasts, our fleet
+                                includes iconic models from Porsche, Ferrari, and Lamborghini. Enjoy top-tier
+                                engineering, responsive handling, and unmatched power as you make a statement on the
+                                road.</p>
+                        </div>
+                        <div class="icon">
+                            <div class="icon-curv">
+                                <a href="#">
+                                    <div class="icon-w"><i class="flaticon-sportive-car icon-show"></i><i
+                                            class="ti-arrow-top-right icon-hidden"></i></div>
+                                </a>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-45">
+                    <div class="item">
+                        <div class="text">
+                            <h5>SUVs</h5>
+                            <p>Travel in confidence with our robust and spacious SUVs, ideal for families, group trips,
+                                or off-road adventures. Designed for both city driving and rugged terrains, our SUVs
+                                provide maximum comfort, ample cargo space, and advanced safety features. Choose from
+                                top brands like Toyota, Range Rover, and Jeep to ensure a smooth and secure ride
+                                wherever your journey takes you.
+                            </p>
+                        </div>
+                        <div class="icon">
+                            <div class="icon-curv">
+                                <a href="#">
+                                    <div class="icon-w"><i class="flaticon-car-suv icon-show"></i><i
+                                            class="ti-arrow-top-right icon-hidden"></i></div>
+                                </a>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-45">
+                    <div class="item">
+                        <div class="text">
+                            <h5>Convertible</h5>
+                            <p>Feel the wind in your hair and enjoy the ultimate open-air driving experience with our
+                                stylish convertibles. Whether you're cruising along the coastline or exploring the city
+                                in luxury, our convertible cars provide a thrilling ride with top-tier performance.
+                                Choose from top brands like BMW, Audi, and Mercedes for an unforgettable journey.
+                            </p>
+                        </div>
+                        <div class="icon">
+                            <div class="icon-curv">
+                                <a href="#">
+                                    <div class="icon-w"><i class="flaticon-cabrio-car icon-show"></i><i
+                                            class="ti-arrow-top-right icon-hidden"></i></div>
+                                </a>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-45">
+                    <div class="item">
+                        <div class="text">
+                            <h5>Hatchback</h5>
+                            <p>Compact, fuel-efficient, and perfect for city driving, our hatchbacks offer a smooth and
+                                convenient ride. With excellent maneuverability, ample cargo space, and modern
+                                technology, these cars are ideal for solo travelers, couples, or small families. Popular
+                                models from Toyota, Volkswagen, and Ford ensure reliability and comfort on every trip.
+                            </p>
+                        </div>
+                        <div class="icon">
+                            <div class="icon-curv">
+                                <a href="#">
+                                    <div class="icon-w"><i class="flaticon-car-of-hatchback-model icon-show"></i><i
+                                            class="ti-arrow-top-right icon-hidden"></i></div>
+                                </a>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-45">
+                    <div class="item">
+                        <div class="text">
+                            <h5>Minivan</h5>
+                            <p>Designed for families and group travels, our spacious minivans offer the perfect blend of
+                                comfort and practicality. With generous seating capacity, advanced safety features, and
+                                ample storage, minivans are great for road trips, business travels, or long-distance
+                                journeys. Rent from trusted brands like Honda, Chrysler, and Toyota for a seamless
+                                travel experience.
+                            </p>
+                        </div>
+                        <div class="icon">
+                            <div class="icon-curv">
+                                <a href="#">
+                                    <div class="icon-w"><i class="flaticon-minivan-car icon-show"></i><i
+                                            class="ti-arrow-top-right icon-hidden"></i></div>
+                                </a>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Booking Search -->
+    <section class="background bg-img bg-fixed section-padding" data-overlay-dark="5"
+        data-background="img/slider/2.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-15">
+                    <div class="section-subtitle">Rent Now</div>
+                    <div class="section-title">Book Auto Rental</div>
+                </div>
+            </div>
+            <div class="booking-inner clearfix">
+                <form action="#0" class="form1 brdr clearfix">
+                    <div class="col2 c3">
+                        <div class="select1_wrapper">
+                            <label>Choose Car Type</label>
+                            <div class="select1_inner">
+                                <select class="select2 select" style="width: 100%">
+                                    <option value="0">Choose Car Type</option>
+                                    <option value="1">All</option>
+                                    <option value="2">Luxury Cars</option>
+                                    <option value="3">Sport Cars</option>
+                                    <option value="4">SUVs</option>
+                                    <option value="5">Convertible</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col2 c4">
+                        <div class="select1_wrapper">
+                            <label>Pick Up Location</label>
+                            <div class="select1_inner">
+                                <select class="select2 select" style="width: 100%">
+                                    <option value="0">Pick Up Location</option>
+                                    <option value="1">Dubai</option>
+                                    <option value="2">Abu Dhabi</option>
+                                    <option value="3">Sharjah</option>
+                                    <option value="4">Alain</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col1 c1">
+                        <div class="input1_wrapper">
+                            <label>Pick Up Date</label>
+                            <div class="input1_inner">
+                                <input type="text" class="form-control input datepicker" placeholder="Pick Up Date"
+                                    required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col2 c5">
+                        <div class="select1_wrapper">
+                            <label>Drop Off Location</label>
+                            <div class="select1_inner">
+                                <select class="select2 select" style="width: 100%">
+                                    <option value="0">Drop Off Location</option>
+                                    <option value="1">Alain</option>
+                                    <option value="2">Sharjah</option>
+                                    <option value="3">Abu Dhabi</option>
+                                    <option value="4">Dubai</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col1 c2">
+                        <div class="input1_wrapper">
+                            <label>Return Date</label>
+                            <div class="input1_inner">
+                                <input type="text" class="form-control input datepicker" placeholder="Return Date">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col3 c6">
+                        <button type="submit" class="booking-button">Rent Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Clients -->
+    <section class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/1.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/2.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/3.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/4.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/5.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/6.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/7.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/8.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer clearfix">
+        <div class="container">
+            <!-- first footer -->
+            <div class="first-footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="links dark footer-contact-links">
+                            <div class="footer-contact-links-wrapper">
+                                <div class="footer-contact-link-wrapper">
+                                    <div class="image-wrapper footer-contact-link-icon">
+                                        <div class="icon-footer"> <i class="flaticon-phone-call"></i> </div>
+                                    </div>
+                                    <div class="footer-contact-link-content">
+                                        <h6 class="fade-in-text">Call us</h6>
+                                        <p>+254 797 901 036</p>
+                                    </div>
+                                </div>
+                                <div class="footer-contact-links-divider"></div>
+                                <div class="footer-contact-link-wrapper">
+                                    <div class="image-wrapper footer-contact-link-icon">
+                                        <div class="icon-footer"> <i class="omfi-envelope"></i> </div>
+                                    </div>
+                                    <div class="footer-contact-link-content">
+                                        <h6 class="fade-in-text">Write to us</h6>
+                                        <p>florence.mwaiflorence384@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="footer-contact-links-divider"></div>
+                                <div class="footer-contact-link-wrapper">
+                                    <div class="image-wrapper footer-contact-link-icon">
+                                        <div class="icon-footer"> <i class="omfi-location"></i> </div>
+                                    </div>
+                                    <div class="footer-contact-link-content">
+                                        <h6 class="fade-in-text">Address</h6>
+                                        <p>Gataka Rd, Nairobi</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- second footer -->
+            <div class="second-footer">
+                <div class="row">
+                    <!-- about & social icons -->
+                    <div class="col-md-4 widget-area">
+                        <div class="widget clearfix">
+                            <div class="footer-logo"><img src="img/logo.png" alt=""></div>
+                            <!-- <div class="footer-logo"><h2 class="animated-text">CARE<span>X</span></h2></div> -->
+                            <div class="widget-text">
+                                <p>Experience seamless car rentals with Carnex. Whether you need a ride for business or
+                                    leisure, we offer reliable, well-maintained vehicles at unbeatable rates. Drive with
+                                    confidence, wherever your journey takes you!</p>
+                                <div class="social-icons">
+                                    <ul class="list-inline">
+                                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- quick links -->
+                    <div class="col-md-3 offset-md-1 widget-area">
+                        <div class="widget clearfix usful-links">
+                            <h3 class="widget-title">Quick Links</h3>
+                            <ul>
+                                <li><a href="about.php">About</a></li>
+                                <li><a href="cars.php">Cars</a></li>
+                                <li><a href="car-types3.php">Car Types</a></li>
+                                <li><a href="team.php">Team</a></li>
+                                <li><a href="contact.php">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- subscribe -->
+                    <div class="col-md-4 widget-area">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Subscribe</h3>
+                            <p>Want to be notified about our services. Just sign up and we'll send you a notification by
+                                email.</p>
+                            <div class="widget-newsletter">
+                                <form action="#">
+                                    <input type="email" placeholder="Email Address" required>
+                                    <button type="submit"><i class="ti-arrow-top-right"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- bottom footer -->
+            <div class="bottom-footer-text">
+                <div class="row copyright">
+                    <div class="col-md-12">
+                        <p class="mb-0">&copy;2025 <a href="#">FlorenceWangui</a>. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.4.1.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -996,7 +996,7 @@ $.extend(Datepicker.prototype, {
 		}
 
 		inst = this._getInst(target[0]);
-		inst.selectedDay = inst.currentDay = $("a", td).html();
+		inst.selectedDay = inst.currentDay = $("a", td).php();
 		inst.selectedMonth = inst.currentMonth = month;
 		inst.selectedYear = inst.currentYear = year;
 		this._selectDate(id, this._formatDate(inst,

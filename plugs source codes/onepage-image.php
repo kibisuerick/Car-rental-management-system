@@ -186,8 +186,8 @@
         <div class="container">
             <!-- Logo -->
             <div class="logo-wrapper">
-                <a class="logo" href="Home.php"> <img src="img/logo.png" class="logo-img" alt=""> </a>
-                <!-- <a class="logo" href="index.php"><h2 class="animated-text">Renta<span>x</span></h2></a> -->
+                <a class="logo" href="Home.html"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+                <!-- <a class="logo" href="index.html"><h2 class="animated-text">Renta<span>x</span></h2></a> -->
             </div>
             <!-- Button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span> </button>
@@ -236,37 +236,37 @@
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
-                            <a href="car-details.php"> <span class="flaticon-coupe-car"></span>
+                            <a href="car-details.html"> <span class="flaticon-coupe-car"></span>
                                 <h6 class="fade-in-text">Luxury Cars</h6>
                             </a>
                             <div class="bg-icon"> <span class="flaticon-coupe-car"></span> </div>
                         </div>
                         <div class="item">
-                            <a href="car-details.php"> <span class="flaticon-sportive-car"></span>
+                            <a href="car-details.html"> <span class="flaticon-sportive-car"></span>
                                 <h6 class="fade-in-text">Sport Cars</h6>
                             </a>
                             <div class="bg-icon"> <span class="flaticon-sportive-car"></span> </div>
                         </div>
                         <div class="item">
-                            <a href="car-details.php"> <span class="flaticon-car-suv"></span>
+                            <a href="car-details.html"> <span class="flaticon-car-suv"></span>
                                 <h6 class="fade-in-text">SUVs</h6>
                             </a>
                             <div class="bg-icon"> <span class="flaticon-car-suv"></span> </div>
                         </div>
                         <div class="item">
-                            <a href="car-details.php"> <span class="flaticon-cabrio-car"></span>
+                            <a href="car-details.html"> <span class="flaticon-cabrio-car"></span>
                                 <h6 class="fade-in-text">Convertible</h6>
                             </a>
                             <div class="bg-icon"> <span class="flaticon-cabrio-car"></span> </div>
                         </div>
                         <div class="item">
-                            <a href="car-details.php"> <span class="flaticon-car-of-hatchback-model"></span>
+                            <a href="car-details.html"> <span class="flaticon-car-of-hatchback-model"></span>
                                 <h6 class="fade-in-text">Hatchback</h6>
                             </a>
                             <div class="bg-icon"> <span class="flaticon-car-of-hatchback-model"></span> </div>
                         </div>
                         <div class="item">
-                            <a href="car-details.php"> <span class="flaticon-sedan-car-model"></span>
+                            <a href="car-details.html"> <span class="flaticon-sedan-car-model"></span>
                                 <h6 class="fade-in-text">Sedan</h6>
                             </a>
                             <div class="bg-icon"> <span class="flaticon-sedan-car-model"></span> </div>
@@ -304,7 +304,7 @@
                                 </div>
                             </li>
                         </ul>
-                        <a href="about.php" class="button-1">Read More <span class="ti-arrow-top-right"></span></a>
+                        <a href="about.html" class="button-1">Read More <span class="ti-arrow-top-right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-1 col-md-12">
@@ -350,7 +350,7 @@
                         </div>
                         <div class="numb">
                             <div class="numb-curv">
-                                <a href="service-details.php">
+                                <a href="service-details.html">
                                     <div class="number"><i class="ti-arrow-top-right"></i></div>
                                 </a>
                                 <div class="shap-left-top">
@@ -373,7 +373,7 @@
                         </div>
                         <div class="numb">
                             <div class="numb-curv">
-                                <a href="service-details.php">
+                                <a href="service-details.html">
                                     <div class="number"><i class="ti-arrow-top-right"></i></div>
                                 </a>
                                 <div class="shap-left-top">
@@ -397,7 +397,7 @@
                         </div>
                         <div class="numb">
                             <div class="numb-curv">
-                                <a href="service-details.php">
+                                <a href="service-details.html">
                                     <div class="number"><i class="ti-arrow-top-right"></i></div>
                                 </a>
                                 <div class="shap-left-top">
@@ -420,7 +420,7 @@
                         </div>
                         <div class="numb">
                             <div class="numb-curv">
-                                <a href="service-details.php">
+                                <a href="service-details.html">
                                     <div class="number"><i class="ti-arrow-top-right"></i></div>
                                 </a>
                                 <div class="shap-left-top">
@@ -443,7 +443,7 @@
                         </div>
                         <div class="numb">
                             <div class="numb-curv">
-                                <a href="service-details.php">
+                                <a href="service-details.html">
                                     <div class="number"><i class="ti-arrow-top-right"></i></div>
                                 </a>
                                 <div class="shap-left-top">
@@ -466,7 +466,7 @@
                         </div>
                         <div class="numb">
                             <div class="numb-curv">
-                                <a href="service-details.php">
+                                <a href="service-details.html">
                                     <div class="number"><i class="ti-arrow-top-right"></i></div>
                                 </a>
                                 <div class="shap-left-top">
@@ -587,7 +587,7 @@
                                 </div>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="car-details2.php" class="vid">
+                                <a href="car-details2.html" class="vid">
                                     <div class="icon"> <i class="icon-show"><span>kes 95000<br><i>day</i></span>
                                         </i><i class="ti-arrow-top-right icon-hidden"></i> </div>
                                 </a>
@@ -614,7 +614,7 @@
                                 </div>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="car-details2.php" class="vid">
+                                <a href="car-details2.html" class="vid">
                                     <div class="icon"> <i class="icon-show"><span>Kes 65,000<br><i>day</i></span>
                                         </i><i class="ti-arrow-top-right icon-hidden"></i> </div>
                                 </a>
@@ -641,7 +641,7 @@
                                 </div>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="car-details2.php" class="vid">
+                                <a href="car-details2.html" class="vid">
                                     <div class="icon"> <i class="icon-show"><span>Kes 102,000<br><i>day</i></span>
                                         </i><i class="ti-arrow-top-right icon-hidden"></i> </div>
                                 </a>
@@ -668,7 +668,7 @@
                                 </div>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="car-details2.php" class="vid">
+                                <a href="car-details2.html" class="vid">
                                     <div class="icon"> <i class="icon-show"><span>kes 50000<br><i>day</i></span>
                                         </i><i class="ti-arrow-top-right icon-hidden"></i> </div>
                                 </a>
@@ -695,7 +695,7 @@
                                 </div>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="car-details2.php" class="vid">
+                                <a href="car-details2.html" class="vid">
                                     <div class="icon"> <i class="icon-show"><span>Kes 65,000<br><i>day</i></span>
                                         </i><i class="ti-arrow-top-right icon-hidden"></i> </div>
                                 </a>
@@ -722,7 +722,7 @@
                                 </div>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="car-details2.php" class="vid">
+                                <a href="car-details2.html" class="vid">
                                     <div class="icon"> <i class="icon-show"><span>kes 70,400<br><i>day</i></span>
                                         </i><i class="ti-arrow-top-right icon-hidden"></i> </div>
                                 </a>
@@ -1206,7 +1206,7 @@
                                 <div class="date"> <a href="#">29 Dec, 2025</a> </div>
                                 <div class="con">
                                     <div class="category"> <a href="#"><i class="ti-user"></i>Olivia D.</a> <a href="#"><i class="ti-comment"></i>5 Comments</a> </div>
-                                    <div class="text"> <a href="post.php">Documents required for car rental</a> </div> <a href="post.php" class="icon-btn"><i class="ti-arrow-top-right"></i></a>
+                                    <div class="text"> <a href="post.html">Documents required for car rental</a> </div> <a href="post.html" class="icon-btn"><i class="ti-arrow-top-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1216,7 +1216,7 @@
                                 <div class="date"> <a href="#">27 Dec, 2025</a> </div>
                                 <div class="con">
                                     <div class="category"> <a href="#"><i class="ti-user"></i>Martin C.</a> <a href="#"><i class="ti-comment"></i>5 Comments</a> </div>
-                                    <div class="text"> <a href="post.php">Rental cost of sport and other cars</a> </div> <a href="post.php" class="icon-btn"><i class="ti-arrow-top-right"></i></a>
+                                    <div class="text"> <a href="post.html">Rental cost of sport and other cars</a> </div> <a href="post.html" class="icon-btn"><i class="ti-arrow-top-right"></i></a>
                                 </div>
                             </div>
                         </div>-->
@@ -1226,7 +1226,7 @@
                                 <div class="date"> <a href="#">25 Dec, 2025</a> </div>
                                 <div class="con">
                                     <div class="category"> <a href="#"><i class="ti-user"></i>Martin C.</a> <a href="#"><i class="ti-comment"></i>5 Comments</a> </div>
-                                    <div class="text"> <a href="post.php">Rental cars how to check driving fines?</a> </div> <a href="post.php" class="icon-btn"><i class="ti-arrow-top-right"></i></a>
+                                    <div class="text"> <a href="post.html">Rental cars how to check driving fines?</a> </div> <a href="post.html" class="icon-btn"><i class="ti-arrow-top-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1236,17 +1236,17 @@
                                 <div class="date"> <a href="#">23 Dec, 2025</a> </div>
                                 <div class="con">
                                     <div class="category"> <a href="#"><i class="ti-user"></i>Arya T.</a> <a href="#"><i class="ti-comment"></i>5 Comments</a> </div>
-                                    <div class="text"> <a href="post.php">How to Rent a Car at the Airport Terminal?</a> </div> <a href="post.php" class="icon-btn"><i class="ti-arrow-top-right"></i></a>
+                                    <div class="text"> <a href="post.html">How to Rent a Car at the Airport Terminal?</a> </div> <a href="post.html" class="icon-btn"><i class="ti-arrow-top-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="img"> <img src="img/blog/0african-american-business-man-car_1303-9853.avif" alt=""> </div>
                             <div class="wrapper">
-                                <div class="date"> <a href="blog1.php">22 Dec, 2025</a> </div>
+                                <div class="date"> <a href="blog1.html">22 Dec, 2025</a> </div>
                                 <div class="con">
                                     <div class="category"> <a href="#"><i class="ti-user"></i>Micheal B.</a> <a href="#"><i class="ti-comment"></i>5 Comments</a> </div>
-                                    <div class="text"> <a href="post.php">Penalties for violating the rules in rental cars</a> </div> <a href="post.php" class="icon-btn"><i class="ti-arrow-top-right"></i></a>
+                                    <div class="text"> <a href="post.html">Penalties for violating the rules in rental cars</a> </div> <a href="post.html" class="icon-btn"><i class="ti-arrow-top-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1256,7 +1256,7 @@
                                 <div class="date"> <a href="#">21 Dec, 2025</a> </div>
                                 <div class="con">
                                     <div class="category"> <a href="#"><i class="ti-user"></i>Daniel K.</a> <a href="#"><i class="ti-comment"></i>5 Comments</a> </div>
-                                    <div class="text"> <a href="post.php">How to check a car before renting?</a> </div> <a href="post.php" class="icon-btn"><i class="ti-arrow-top-right"></i></a>
+                                    <div class="text"> <a href="post.html">How to check a car before renting?</a> </div> <a href="post.html" class="icon-btn"><i class="ti-arrow-top-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1352,11 +1352,11 @@
                         <div class="widget clearfix usful-links">
                             <h3 class="widget-title">Quick Links</h3>
                             <ul>
-                                <li><a href="about.php">About</a></li>
-                                <li><a href="cars.php">Cars</a></li>
-                                <li><a href="car-types3.php">Car Types</a></li>
-                                <li><a href="team.php">Team</a></li>
-                                <li><a href="contact.php">Contact</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="cars.html">Cars</a></li>
+                                <li><a href="car-types3.html">Car Types</a></li>
+                                <li><a href="team.html">Team</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
                     </div>

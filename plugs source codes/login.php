@@ -53,7 +53,7 @@
                   <div class="col-11 col-lg-9 mx-auto text-center">
                     <!-- Business Logo -->
                     <div class="logo mt-5 mb-3">
-                      <a href="home.php" title="Homepage">
+                      <a href="home.html" title="Homepage">
                         <img src="img/logo.png" alt="Business Logo" style="max-width: 150px;">
                       </a>
                     </div>
@@ -77,7 +77,7 @@
           <div class="container my-auto py-5">
             <div class="row g-0">
               <div class="col-11 col-md-8 col-lg-7 col-xl-6 mx-auto">
-                <p class="text-2 text-light">Not a member? <a class="fw-500" href="register.php">Register</a></p>
+                <p class="text-2 text-light">Not a member? <a class="fw-500" href="register.html">Register</a></p>
                 <h3 class="text-white mb-4">Log In to Your Account</h3>
                 <div class="d-flex">
                   <!--<button type="button" class="btn btn-primary btn-sm fw-400 rounded-3 shadow-none"><span
@@ -100,7 +100,7 @@
                   </div>
                   <div class="mb-3">
                     <label class="form-label text-light" for="loginPassword">Password</label>
-                    <a class="float-end text-2" href="forgot-password.php">Forgot Password ?</a>
+                    <a class="float-end text-2" href="forgot-password.html">Forgot Password ?</a>
                     <input type="password" class="form-control" id="loginPassword" required
                       placeholder="Enter Password">
                   </div>

@@ -68,7 +68,7 @@
 
 <div class="login-container">
     <h2>Login</h2>
-    <form action="login.php" method="POST">
+    <form action="login.html" method="POST">
         <input type="email" name="email" placeholder="Email" required>
         
         <input type="password" name="password" placeholder="Password" required>
@@ -76,7 +76,7 @@
         <button type="submit">Login</button>
 
         <div class="form-footer">
-            <p>Don't have an account? <a href="signup.php">Sign up</a></p>
+            <p>Don't have an account? <a href="signup.html">Sign up</a></p>
         </div>
     </form>
 </div>

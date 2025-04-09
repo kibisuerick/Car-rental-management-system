@@ -47,7 +47,7 @@
             <div class="container d-flex flex-column h-100">
               <div class="row g-0">
                 <div class="col-11 col-lg-9 mx-auto">
-                  <div class="logo mt-5 mb-5"> <a class="d-flex" href="https://harnishdesign.net/demo/html/oxyy/index.php" title="Oxyy"><img src="img/logo.png" alt="Oxyy"></a> </div>
+                  <div class="logo mt-5 mb-5"> <a class="d-flex" href="https://harnishdesign.net/demo/html/oxyy/index.html" title="Oxyy"><img src="img/logo.png" alt="Oxyy"></a> </div>
                 </div>
               </div>
               <div class="row g-0 mt-3">

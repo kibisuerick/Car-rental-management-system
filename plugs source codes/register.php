@@ -53,7 +53,7 @@
                 <div class="col-11 col-lg-9 mx-auto text-center">
                   <!-- Business Logo with Link -->
                   <div class="logo mt-5 mb-3"> 
-                    <a href="home.php" title="Homepage">
+                    <a href="home.html" title="Homepage">
                       <img src="img/logo.png" alt="Business Logo" style="max-width: 150px;">
                     </a>
                   </div>
@@ -77,7 +77,7 @@
           <div class="container my-auto py-5">
             <div class="row g-0">
               <div class="col-11 col-md-8 col-lg-7 col-xl-6 mx-auto">
-                <p class="text-2 text-light">Already a member? <a class="fw-500" href="login.php">Login</a></p>
+                <p class="text-2 text-light">Already a member? <a class="fw-500" href="login.html">Login</a></p>
                 <h3 class="text-white mb-4">Register Your Account</h3>
                 <div class="d-flex">
                   <!--<button type="button" class="btn btn-primary btn-sm fw-400 rounded-3 shadow-none"><span

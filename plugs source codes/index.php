@@ -186,8 +186,8 @@
         <div class="container">
             <!-- Logo -->
             <div class="logo-wrapper">
-                <a class="logo" href="Home.php"> <img src="img/logo.png" class="logo-img" alt=""> </a>
-                <!-- <a class="logo" href="index.php"><h2 class="animated-text">Renta<span>x</span></h2></a> -->
+                <a class="logo" href="Home.html"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+                <!-- <a class="logo" href="index.html"><h2 class="animated-text">Renta<span>x</span></h2></a> -->
             </div>
             <!-- Button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -200,45 +200,45 @@
                             data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home <i
                                 class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="index.php" class="dropdown-item active"><span>Slider 01</span></a></li>
-                            <li><a href="Home.php" class="dropdown-item"><span>Main page</span></a></li>
-                            <li><a href="index2.php" class="dropdown-item"><span>Images</span></a></li>
-                            <!--<li><a href="index.php" class="dropdown-item"><span>Slider 01</span></a></li>-->
-                            <li><a href="index3.php" class="dropdown-item"><span>Video</span></a></li>
-                            <!--<li><a href="index4.php" class="dropdown-item"><span>Slideshow</span></a></li>-->
-                            <!--<li><a href="index6.php" class="dropdown-item"><span>Grid Background</span></a></li>-->
+                            <li><a href="index.html" class="dropdown-item active"><span>Slider 01</span></a></li>
+                            <li><a href="Home.html" class="dropdown-item"><span>Main page</span></a></li>
+                            <li><a href="index2.html" class="dropdown-item"><span>Images</span></a></li>
+                            <!--<li><a href="index.html" class="dropdown-item"><span>Slider 01</span></a></li>-->
+                            <li><a href="index3.html" class="dropdown-item"><span>Video</span></a></li>
+                            <!--<li><a href="index4.html" class="dropdown-item"><span>Slideshow</span></a></li>-->
+                            <!--<li><a href="index6.html" class="dropdown-item"><span>Grid Background</span></a></li>-->
                             <li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle"
                                     data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
                                     href="#"><span>Onepage <i class="ti-angle-right"></i></span></a>
                                 <ul class="dropdown-menu">
-                                    <!--<li><a href="onepage-slider.php" class="dropdown-item"><span>Slider 01</span></a></li>-->
-                                    <li><a href="onepage-slider2.php" class="dropdown-item"><span>Main page</span></a>
+                                    <!--<li><a href="onepage-slider.html" class="dropdown-item"><span>Slider 01</span></a></li>-->
+                                    <li><a href="onepage-slider2.html" class="dropdown-item"><span>Main page</span></a>
                                     </li>
-                                    <li><a href="onepage-image.php" class="dropdown-item"><span>Images</span></a></li>
-                                    <!--<li><a href="onepage-image2.php" class="dropdown-item"><span>Image 02</span></a></li>-->
-                                    <li><a href="onepage-video.php" class="dropdown-item"><span>Video</span></a></li>
-                                    <!--<li><a href="onepage-slideshow.php" class="dropdown-item"><span>Slideshow</span></a></li>
-                                    <li><a href="onepage-grid-background.php" class="dropdown-item"><span>Grid Background</span></a></li>-->
+                                    <li><a href="onepage-image.html" class="dropdown-item"><span>Images</span></a></li>
+                                    <!--<li><a href="onepage-image2.html" class="dropdown-item"><span>Image 02</span></a></li>-->
+                                    <li><a href="onepage-video.html" class="dropdown-item"><span>Video</span></a></li>
+                                    <!--<li><a href="onepage-slideshow.html" class="dropdown-item"><span>Slideshow</span></a></li>
+                                    <li><a href="onepage-grid-background.html" class="dropdown-item"><span>Grid Background</span></a></li>-->
                                 </ul>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button"
                             data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Services <i
                                 class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="services.php" class="dropdown-item"><span>Services</span></a></li>
-                            <!--<li><a href="services2.php" class="dropdown-item"><span>Services 02</span></a></li>-->
+                            <li><a href="services.html" class="dropdown-item"><span>Services</span></a></li>
+                            <!--<li><a href="services2.html" class="dropdown-item"><span>Services 02</span></a></li>-->
                             <li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle"
                                     data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
                                     href="#"><span>Service Details <i class="ti-angle-right"></i></span></a>
                                 <ul class="dropdown-menu">
-                                    <!--<li><a href="service-details.php" class="dropdown-item"><span>Service Details 01</span></a></li>-->
-                                    <li><a href="service-details2.php" class="dropdown-item"><span>Let's serve
+                                    <!--<li><a href="service-details.html" class="dropdown-item"><span>Service Details 01</span></a></li>-->
+                                    <li><a href="service-details2.html" class="dropdown-item"><span>Let's serve
                                                 you</span></a></li>
-                                    <!--<li><a href="service-details3.php" class="dropdown-item"><span>Service Details 03</span></a></li>
-                                    <li><a href="service-details4.php" class="dropdown-item"><span>Service Details 04</span></a></li>-->
+                                    <!--<li><a href="service-details3.html" class="dropdown-item"><span>Service Details 03</span></a></li>
+                                    <li><a href="service-details4.html" class="dropdown-item"><span>Service Details 04</span></a></li>-->
                                 </ul>
                             </li>
                         </ul>
@@ -251,28 +251,28 @@
                                     data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
                                     href="#"><span>Car Grid <i class="ti-angle-right"></i></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="cars.php" class="dropdown-item"><span>Car Grid</span></a></li>
-                                    <!--<li><a href="cars2.php" class="dropdown-item"><span>Car Grid 02</span></a></li>
-                                    <li><a href="cars3.php" class="dropdown-item"><span>Car Grid 03</span></a></li>-->
+                                    <li><a href="cars.html" class="dropdown-item"><span>Car Grid</span></a></li>
+                                    <!--<li><a href="cars2.html" class="dropdown-item"><span>Car Grid 02</span></a></li>
+                                    <li><a href="cars3.html" class="dropdown-item"><span>Car Grid 03</span></a></li>-->
                                 </ul>
                             </li>
-                            <li><a href="cars4.php" class="dropdown-item"><span>Car Listing</span></a></li>
+                            <li><a href="cars4.html" class="dropdown-item"><span>Car Listing</span></a></li>
                             <li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle"
                                     data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
                                     href="#"><span>Car Types <i class="ti-angle-right"></i></span></a>
                                 <ul class="dropdown-menu">
-                                    <!--<li><a href="car-types.php" class="dropdown-item"><span>Car Types 01</span></a></li>
-                                    <li><a href="car-types2.php" class="dropdown-item"><span>Car Types 02</span></a></li>-->
-                                    <li><a href="car-types3.php" class="dropdown-item"><span>Car Types</span></a></li>
-                                    <!--<li><a href="car-types4.php" class="dropdown-item"><span>Car Types 04</span></a></li>-->
+                                    <!--<li><a href="car-types.html" class="dropdown-item"><span>Car Types 01</span></a></li>
+                                    <li><a href="car-types2.html" class="dropdown-item"><span>Car Types 02</span></a></li>-->
+                                    <li><a href="car-types3.html" class="dropdown-item"><span>Car Types</span></a></li>
+                                    <!--<li><a href="car-types4.html" class="dropdown-item"><span>Car Types 04</span></a></li>-->
                                 </ul>
                             </li>
                             <!--<li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#"><span>Car Details <i class="ti-angle-right"></i></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="car-details.php" class="dropdown-item"><span>Car Details 01</span></a></li>
-                                    <li><a href="car-details2.php" class="dropdown-item"><span>Car Details 02</span></a></li>
-                                    <li><a href="car-details3.php" class="dropdown-item"><span>Car Details 03</span></a></li>
-                                    <li><a href="car-details4.php" class="dropdown-item"><span>Car Details 04</span></a></li>
+                                    <li><a href="car-details.html" class="dropdown-item"><span>Car Details 01</span></a></li>
+                                    <li><a href="car-details2.html" class="dropdown-item"><span>Car Details 02</span></a></li>
+                                    <li><a href="car-details3.html" class="dropdown-item"><span>Car Details 03</span></a></li>
+                                    <li><a href="car-details4.html" class="dropdown-item"><span>Car Details 04</span></a></li>
                                 </ul>
                             </li>-->
                         </ul>
@@ -281,41 +281,41 @@
                             data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Pages <i
                                 class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="login.php" class="dropdown-item"><span>Login</span></a></li>
-                            <li><a href="signup.php" class="dropdown-item"><span>signup</span></a></li>
-                            <li><a href="team.php" class="dropdown-item"><span>Team</span></a></li>
+                            <li><a href="login.html" class="dropdown-item"><span>Login</span></a></li>
+                            <li><a href="signup.html" class="dropdown-item"><span>signup</span></a></li>
+                            <li><a href="team.html" class="dropdown-item"><span>Team</span></a></li>
                             <li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle"
                                     data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
                                     href="#"><span>Image Gallery <i class="ti-angle-right"></i></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="gallery-image.php" class="dropdown-item"><span>Image Gallery
+                                    <li><a href="gallery-image.html" class="dropdown-item"><span>Image Gallery
                                                 Grid</span></a></li>
-                                    <!--<li><a href="gallery-image2.php" class="dropdown-item"><span>Image Gallery Masonry</span></a></li>-->
+                                    <!--<li><a href="gallery-image2.html" class="dropdown-item"><span>Image Gallery Masonry</span></a></li>-->
                                 </ul>
                             </li>
-                            <li><a href="gallery-video.php" class="dropdown-item"><span>Video Gallery</span></a></li>
-                            <li><a href="price.php" class="dropdown-item"><span>Pricing</span></a></li>
-                            <li><a href="faq.php" class="dropdown-item"><span>FAQ</span></a></li>
-                            <li><a href="testiominals.php" class="dropdown-item"><span>Testiominals</span></a></li>
-                            <li><a href="team-single.php" class="dropdown-item"><span>Team Single</span></a></li>
-                            <li><a href="404.php" class="dropdown-item"><span>404 Page</span></a></li>
+                            <li><a href="gallery-video.html" class="dropdown-item"><span>Video Gallery</span></a></li>
+                            <li><a href="price.html" class="dropdown-item"><span>Pricing</span></a></li>
+                            <li><a href="faq.html" class="dropdown-item"><span>FAQ</span></a></li>
+                            <li><a href="testiominals.html" class="dropdown-item"><span>Testiominals</span></a></li>
+                            <li><a href="team-single.html" class="dropdown-item"><span>Team Single</span></a></li>
+                            <li><a href="404.html" class="dropdown-item"><span>404 Page</span></a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button"
                             data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Blog <i
                                 class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="blog.php" class="dropdown-item"><span>Blog Grid</span></a></li>
-                            <!--<li><a href="blog2.php" class="dropdown-item"><span>Blog Grid 02</span></a></li>
-                            <li><a href="blog3.php" class="dropdown-item"><span>Blog List</span></a></li>
-                            <li><a href="post.php" class="dropdown-item"><span>Post Single</span></a></li>-->
+                            <li><a href="blog.html" class="dropdown-item"><span>Blog Grid</span></a></li>
+                            <!--<li><a href="blog2.html" class="dropdown-item"><span>Blog Grid 02</span></a></li>
+                            <li><a href="blog3.html" class="dropdown-item"><span>Blog List</span></a></li>
+                            <li><a href="post.html" class="dropdown-item"><span>Post Single</span></a></li>-->
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     <li></li>
                     <li></li>
                     <li class="header__account--icon__list">
-                        <a class="header__account--icon__link" href="login.php"><!-- Account icon --><svg
+                        <a class="header__account--icon__link" href="login.html"><!-- Account icon --><svg
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="feather feather-users">
@@ -434,7 +434,7 @@
                                 </div>
                             </li>
                         </ul>
-                        <a href="about.php" class="button-1">Read More <span class="ti-arrow-top-right"></span></a>
+                        <a href="about.html" class="button-1">Read More <span class="ti-arrow-top-right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-1 col-md-12">
@@ -484,10 +484,10 @@
                                 class="img-fluid" alt="">
                             <div class="bottom-fade"></div>
                             <div class="title">
-                                <h4><a href="service-details.php">Corporate Car Rental</a></h4>
+                                <h4><a href="service-details.html">Corporate Car Rental</a></h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="service-details.php" class="vid">
+                                <a href="service-details.html" class="vid">
                                     <div class="icon">01</div>
                                 </a>
                                 <div class="br-left-top">
@@ -511,10 +511,10 @@
                         <div class="item"> <img src="img/services/2.jpg" class="img-fluid" alt="">
                             <div class="bottom-fade"></div>
                             <div class="title">
-                                <h4><a href="service-details.php">Car Rental with Driver</a></h4>
+                                <h4><a href="service-details.html">Car Rental with Driver</a></h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="service-details.php" class="vid">
+                                <a href="service-details.html" class="vid">
                                     <div class="icon">02</div>
                                 </a>
                                 <div class="br-left-top">
@@ -538,10 +538,10 @@
                         <div class="item"> <img src="img/services/3.jpg" class="img-fluid" alt="">
                             <div class="bottom-fade"></div>
                             <div class="title">
-                                <h4><a href="service-details.php">Airport Transfer</a></h4>
+                                <h4><a href="service-details.html">Airport Transfer</a></h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="service-details.php" class="vid">
+                                <a href="service-details.html" class="vid">
                                     <div class="icon">03</div>
                                 </a>
                                 <div class="br-left-top">
@@ -567,10 +567,10 @@
                                 class="img-fluid" alt="">
                             <div class="bottom-fade"></div>
                             <div class="title">
-                                <h4><a href="service-details.php">Fleet Leasing</a></h4>
+                                <h4><a href="service-details.html">Fleet Leasing</a></h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="service-details.php" class="vid">
+                                <a href="service-details.html" class="vid">
                                     <div class="icon">04</div>
                                 </a>
                                 <div class="br-left-top">
@@ -594,10 +594,10 @@
                         <div class="item"> <img src="img/services/5.jpg" class="img-fluid" alt="">
                             <div class="bottom-fade"></div>
                             <div class="title">
-                                <h4><a href="service-details.php">VIP Transfer</a></h4>
+                                <h4><a href="service-details.html">VIP Transfer</a></h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="service-details.php" class="vid">
+                                <a href="service-details.html" class="vid">
                                     <div class="icon">05</div>
                                 </a>
                                 <div class="br-left-top">
@@ -622,10 +622,10 @@
                                 class="img-fluid" alt="">
                             <div class="bottom-fade"></div>
                             <div class="title">
-                                <h4><a href="service-details.php">Private Transfer</a></h4>
+                                <h4><a href="service-details.html">Private Transfer</a></h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="service-details.php" class="vid">
+                                <a href="service-details.html" class="vid">
                                     <div class="icon">06</div>
                                 </a>
                                 <div class="br-left-top">
@@ -753,7 +753,7 @@
                             </div>
                             <div class="col-md-5">
                                 <div class="book">
-                                    <div><a href="car-details.php" class="btn"><span>Details</span></a></div>
+                                    <div><a href="car-details.html" class="btn"><span>Details</span></a></div>
                                     <div><span class="price">Kes 90,000</span><span>/day</span></div>
                                 </div>
                             </div>
@@ -773,7 +773,7 @@
                             </div>
                             <div class="col-md-5">
                                 <div class="book">
-                                    <div><a href="car-details.php" class="btn"><span>Details</span></a></div>
+                                    <div><a href="car-details.html" class="btn"><span>Details</span></a></div>
                                     <div><span class="price">kes 55000</span><span>/day</span></div>
                                 </div>
                             </div>
@@ -793,7 +793,7 @@
                             </div>
                             <div class="col-md-5">
                                 <div class="book">
-                                    <div><a href="car-details.php" class="btn"><span>Details</span></a></div>
+                                    <div><a href="car-details.html" class="btn"><span>Details</span></a></div>
                                     <div><span class="price">kes 95000</span><span>/day</span></div>
                                 </div>
                             </div>
@@ -814,7 +814,7 @@
                             </div>
                             <div class="col-md-5">
                                 <div class="book">
-                                    <div><a href="car-details.php" class="btn"><span>Details</span></a></div>
+                                    <div><a href="car-details.html" class="btn"><span>Details</span></a></div>
                                     <div><span class="price">Kes 65,000</span><span>/day</span></div>
                                 </div>
                             </div>
@@ -834,7 +834,7 @@
                             </div>
                             <div class="col-md-5">
                                 <div class="book">
-                                    <div><a href="car-details.php" class="btn"><span>Details</span></a></div>
+                                    <div><a href="car-details.html" class="btn"><span>Details</span></a></div>
                                     <div><span class="price">Kes 102,000</span><span>/day</span></div>
                                 </div>
                             </div>
@@ -854,7 +854,7 @@
                             </div>
                             <div class="col-md-5">
                                 <div class="book">
-                                    <div><a href="car-details.php" class="btn"><span>Details</span></a></div>
+                                    <div><a href="car-details.html" class="btn"><span>Details</span></a></div>
                                     <div><span class="price">kes 55000</span><span>/day</span></div>
                                 </div>
                             </div>
@@ -876,7 +876,7 @@
                             </div>
                             <div class="col-md-5">
                                 <div class="book">
-                                    <div><a href="car-details.php" class="btn"><span>Details</span></a></div>
+                                    <div><a href="car-details.html" class="btn"><span>Details</span></a></div>
                                     <div><span class="price">kes 50000</span><span>/day</span></div>
                                 </div>
                             </div>
@@ -896,7 +896,7 @@
                             </div>
                             <div class="col-md-5">
                                 <div class="book">
-                                    <div><a href="car-details.php" class="btn"><span>Details</span></a></div>
+                                    <div><a href="car-details.html" class="btn"><span>Details</span></a></div>
                                     <div><span class="price">kes 50000</span><span>/day</span></div>
                                 </div>
                             </div>
@@ -925,7 +925,7 @@
                                 <h4>Luxury Cars</h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="car-details.php" class="vid">
+                                <a href="car-details.html" class="vid">
                                     <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
                                 </a>
                                 <div class="br-left-top">
@@ -953,7 +953,7 @@
                                 <h4>Sport Cars</h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="car-details.php" class="vid">
+                                <a href="car-details.html" class="vid">
                                     <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
                                 </a>
                                 <div class="br-left-top">
@@ -979,7 +979,7 @@
                                 <h4>SUV</h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="car-details.php" class="vid">
+                                <a href="car-details.html" class="vid">
                                     <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
                                 </a>
                                 <div class="br-left-top">
@@ -1006,7 +1006,7 @@
                                 <h4>Convertible</h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="car-details.php" class="vid">
+                                <a href="car-details.html" class="vid">
                                     <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
                                 </a>
                                 <div class="br-left-top">
@@ -1032,7 +1032,7 @@
                                 <h4>Sedan</h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="car-details.php" class="vid">
+                                <a href="car-details.html" class="vid">
                                     <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
                                 </a>
                                 <div class="br-left-top">
@@ -1059,7 +1059,7 @@
                                 <h4>Small Cars</h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="car-details.php" class="vid">
+                                <a href="car-details.html" class="vid">
                                     <div class="icon"> <i class="ti-arrow-top-right"></i> </div>
                                 </a>
                                 <div class="br-left-top">
@@ -1418,7 +1418,7 @@
                                 <h4>Documents required for car rental</h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="post.php" class="vid">
+                                <a href="post.html" class="vid">
                                     <div class="icon"> <i class="icon-show"><span>29<br><i>Apr</i></span>
                                         </i><i class="ti-arrow-top-right icon-hidden"></i> </div>
                                 </a>
@@ -1449,7 +1449,7 @@
                                 <h4>Rental cost of sport and other cars</h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="post.php" class="vid">
+                                <a href="post.html" class="vid">
                                     <div class="icon"> <i class="icon-show"><span>27<br><i>Apr</i></span>
                                         </i><i class="ti-arrow-top-right icon-hidden"></i> </div>
                                 </a>
@@ -1478,7 +1478,7 @@
                                 <h4>Rental cars how to check driving fines?</h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="post.php" class="vid">
+                                <a href="post.html" class="vid">
                                     <div class="icon"> <i class="icon-show"><span>25<br><i>Apr</i></span>
                                         </i><i class="ti-arrow-top-right icon-hidden"></i> </div>
                                 </a>
@@ -1508,7 +1508,7 @@
                                 <h4>How to Rent a Car at the Airport Terminal?</h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="post.php" class="vid">
+                                <a href="post.html" class="vid">
                                     <div class="icon"> <i class="icon-show"><span>23<br><i>Apr</i></span>
                                         </i><i class="ti-arrow-top-right icon-hidden"></i> </div>
                                 </a>
@@ -1537,7 +1537,7 @@
                                 <h4>Penalties for violating the rules in rental cars</h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="post.php" class="vid">
+                                <a href="post.html" class="vid">
                                     <div class="icon"> <i class="icon-show"><span>22<br><i>Apr</i></span>
                                         </i><i class="ti-arrow-top-right icon-hidden"></i> </div>
                                 </a>
@@ -1566,7 +1566,7 @@
                                 <h4>How to check a car before renting?</h4>
                             </div>
                             <div class="curv-butn icon-bg">
-                                <a href="post.php" class="vid">
+                                <a href="post.html" class="vid">
                                     <div class="icon"> <i class="icon-show"><span>20<br><i>Apr</i></span>
                                         </i><i class="ti-arrow-top-right icon-hidden"></i> </div>
                                 </a>
@@ -1713,11 +1713,11 @@
                         <div class="widget clearfix usful-links">
                             <h3 class="widget-title">Quick Links</h3>
                             <ul>
-                                <li><a href="about.php">About</a></li>
-                                <li><a href="cars.php">Cars</a></li>
-                                <li><a href="car-types3.php">Car Types</a></li>
-                                <li><a href="team.php">Team</a></li>
-                                <li><a href="contact.php">Contact</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="cars.html">Cars</a></li>
+                                <li><a href="car-types3.html">Car Types</a></li>
+                                <li><a href="team.html">Team</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
                     </div>

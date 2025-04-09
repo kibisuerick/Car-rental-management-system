@@ -78,7 +78,7 @@
           <div class="container my-auto py-5">
             <div class="row g-0">
               <div class="col-11 col-md-8 col-lg-7 col-xl-6 mx-auto">
-                <p class="text-2 text-light">Return to <a class="fw-500" href="login.html">Login</a></p>
+                <p class="text-2 text-light">Return to <a class="fw-500" href="login.php">Login</a></p>
                 <h3 class="text-white mb-4">Forgot password?</h3>
                 <p class="text-white-50 mb-4">Enter the email address or mobile number associated with your account.</p>
                 <form id="forgotForm" class="form-dark" method="post">

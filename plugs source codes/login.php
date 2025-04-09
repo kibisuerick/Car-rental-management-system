@@ -77,7 +77,7 @@
           <div class="container my-auto py-5">
             <div class="row g-0">
               <div class="col-11 col-md-8 col-lg-7 col-xl-6 mx-auto">
-                <p class="text-2 text-light">Not a member? <a class="fw-500" href="register.html">Register</a></p>
+                <p class="text-2 text-light">Not a member? <a class="fw-500" href="register.php">Register</a></p>
                 <h3 class="text-white mb-4">Log In to Your Account</h3>
                 <div class="d-flex">
                   <!--<button type="button" class="btn btn-primary btn-sm fw-400 rounded-3 shadow-none"><span

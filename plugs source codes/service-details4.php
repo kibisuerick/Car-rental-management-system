@@ -277,7 +277,7 @@
                             data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Pages <i
                                 class="ti-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="login.html" class="dropdown-item"><span>Login</span></a></li>
+                            <li><a href="login.php" class="dropdown-item"><span>Login</span></a></li>
                             <li><a href="signup.html" class="dropdown-item"><span>signup</span></a></li>
                             <li><a href="team.html" class="dropdown-item"><span>Team</span></a></li>
                             <li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle"
@@ -311,7 +311,7 @@
                     <li></li>
                     <li></li>
                     <li class="header__account--icon__list">
-                        <a class="header__account--icon__link" href="login.html"><!-- Account icon --><svg
+                        <a class="header__account--icon__link" href="login.php"><!-- Account icon --><svg
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="feather feather-users">

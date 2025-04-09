@@ -1,18 +1,14 @@
 <?php
+// db.php - Database connection using PDO
 $host = 'localhost';
 $dbname = 'car_rental_management_system';
-$username = 'root'; // Default XAMPP username
-$password = '';     // Default XAMPP password is empty
+$username = 'root';
+$password = '';
 
 try {
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
-    
-    // Set PDO error mode to exception
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-    // Optional: uncomment below line to confirm connection
-    // echo "Connected successfully to the database!";
+    $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 } catch (PDOException $e) {
-    die("Connection failed: " . $e->getMessage());
+    die("Database connection failed: " . $e->getMessage());
 }
-?>
